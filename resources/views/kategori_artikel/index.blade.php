@@ -21,7 +21,6 @@
 					<td> {!! $item-> nama !!} </td>
 					<td> {!! $item-> users_id !!} </td>
 					<td> {!! $item-> created_at !!} </td>
-					<td> {!! $item-> updated_at !!} </td>
 					<td>
 						<a href="{!! route('kategori_artikel.show',[$item->id]) !!}" class="btn btn-sm btn-success"> Lihat </a>
 					</td>
