@@ -15,7 +15,7 @@
                             <label for="kontak" class="col-md-4 col-form-label text-md-right">{{ __('Contact') }}</label>
 
                             <div class="col-md-6">
-                                <input id="kontak" type="kontak" class="form-control @error('kontak') is-invalid @enderror" name="kontak" value="{{ old('kontak') }}" required autocomplete="kontak" autofocus>
+                                <input id="kontak" type="telp" class="form-control @error('kontak') is-invalid @enderror" name="kontak" value="{{ old('kontak') }}" required autocomplete="kontak" autofocus>
 
                                 @error('Contact')
                                     <span class="invalid-feedback" role="alert">
