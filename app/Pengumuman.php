@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pengumuman extends Model
 {
-	protected $table="galeri";
+	protected $table="Pengumuman";
 	protected $fillable=['judul','isi','users_id','kategori_pengumuman_id'];
 
 	protected $casts=[];

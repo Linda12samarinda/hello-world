@@ -12,9 +12,15 @@
 <label class="col-md-4 col-form-label text-md-left">{!! $Pengumuman->id !!}</label>
 </div>
 					<div class="from-group row">
-<label class="col-md-4 col-form-label text-md-right">Nama</label>
-<label class="col-md-4 col-form-label text-md-left">{!! $Pengumuman->nama !!}</label>
+<label class="col-md-4 col-form-label text-md-right">judul</label>
+<label class="col-md-4 col-form-label text-md-left">{!! $Pengumuman->judul !!}</label>
 </div>
+
+<div class="from-group row">
+<label class="col-md-4 col-form-label text-md-right">ISI</label>
+<label class="col-md-4 col-form-label text-md-left">{!! $Pengumuman->isi !!}</label>
+</div>
+
 					<div class="from-group row">
 <label class="col-md-4 col-form-label text-md-right">User id</label>
 <label class="col-md-4 col-form-label text-md-left">{!! $Pengumuman->users_id !!}</label>
@@ -29,7 +35,7 @@
 </div>
 <div class="form-group row mb-0">
 <div class="cold-md-6 offset-md-4">
-	<a href="{!! route('kategori_pengumuman.index') !!}" class="btn btn-primary">Kembali</a>
+	<a href="{!! route('pengumuman.index') !!}" class="btn btn-primary">Kembali</a>
 </div>
 </div>
 </div>
